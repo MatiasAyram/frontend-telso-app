@@ -7,10 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+node_modules/
+dist/
 dist-ssr
 *.local
+build/
+.vite/
+.out/
+public/build/
+package-lock.json
+.pnpm-store/
+.pnpm-debug.log*
+yarn-error.log*
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +30,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
+*.sublime-workspace
+
+
+# Tooling
+.eslintcache
+.parcel-cache/
+.pnp.*
+.storybook/
+
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Vite / caching
+.cache/
+coverage/
+coverage-final.json
+*.tsbuildinfo
